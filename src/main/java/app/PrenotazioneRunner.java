@@ -15,7 +15,7 @@ import app.utente.UtenteService;
 
 @Component
 @Order(1)
-public class UtenteRunner implements ApplicationRunner {
+public class PrenotazioneRunner implements ApplicationRunner {
 	@Autowired
 	UtenteService utenteService;
 
